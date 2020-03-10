@@ -5,5 +5,6 @@ require('@babel/register')({
 
 const hello = "HELLO";
 name = "John Doe";
+file = "something";
 
-console.log({ hello, name, user });
+console.log({ hello, name, user, file, anon });
